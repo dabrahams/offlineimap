@@ -16,6 +16,7 @@
 #    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
 from threading import Lock
 from .IMAP import IMAPFolder
+from offlineimap.error import OfflineImapError
 import os.path
 
 class MappedIMAPFolder(IMAPFolder):
